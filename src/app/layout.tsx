@@ -9,21 +9,21 @@ const ibmPlexSans = IBM_Plex_Sans({
 });
 
 export const metadata = {
-  title: 'Kimo Mo | Developer Portfolio',
+  title: 'Omar Wael | Developer Portfolio',
   description:
-    'Portfolio website of Kimo Mo: Web Developer, Designer, and Creator.',
+    'Portfolio website of Omar Wael: Web Developer, Designer, and Creator.',
   openGraph: {
-    title: 'Kimo Mo | Developer Portfolio',
+    title: 'Omar Wael | Developer Portfolio',
     description:
-      'Portfolio website of Kimo Mo: Web Developer, Designer, and Creator.',
-    url: 'https://kimo-dev-portfolio.vercel.app/',
-    siteName: 'Kimo Mo',
+      'Portfolio website of Omar Wael: Web Developer, Designer, and Creator.',
+    url: '/',
+    siteName: 'Omar Wael',
     images: [
       {
-        url: 'https://kimo-dev-portfolio.vercel.app/images/about.png',
+        url: '/images/about.png',
         width: 1200,
         height: 630,
-        alt: 'Kimo Mo Portfolio Preview',
+        alt: 'Omar Wael Portfolio Preview',
       },
     ],
     locale: 'en_US',
@@ -31,10 +31,10 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Kimo Mo | Developer Portfolio',
+    title: 'Omar Wael | Developer Portfolio',
     description:
-      'Portfolio website of Kimo Mo: Web Developer, Designer, and Creator.',
-    images: ['https://kimo-dev-portfolio.vercel.app/images/about.png'],
+      'Portfolio website of Omar Wael: Web Developer, Designer, and Creator.',
+    images: ['/images/about.png'],
   },
   icons: {
     icon: '/favicon.ico',
@@ -56,17 +56,17 @@ export default function RootLayout({
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'Person',
-              name: 'Kimo Mo',
-              url: 'https://kimo-dev-portfolio.vercel.app/',
-              image: 'https://kimo-dev-portfolio.vercel.app/images/about.png',
+              name: 'Omar Wael',
+              url: '/',
+              image: '/images/about.png',
               jobTitle: 'Web Developer, Designer, Creator',
               sameAs: [
-                'https://github.com/Kimo-Mo',
-                'https://linkedin.com/in/kareem-dev',
-                'https://instagram.com/kareem_mohamed_19',
+                'https://github.com/omarwael5556666-stack',
+                'https://www.linkedin.com/in/omar-wael-60361239a',
+                'https://www.instagram.com/oommaarrwael',
               ],
               description:
-                'Portfolio website of Kimo Mo: Web Developer, Designer, and Creator.',
+                'Portfolio website of Omar Wael: Web Developer, Designer, and Creator.',
             }),
           }}
         />

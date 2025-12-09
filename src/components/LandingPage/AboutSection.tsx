@@ -9,6 +9,7 @@ const age = new Date().getFullYear() - personalData.birthYear;
 
 const AboutSection = () => {
   const { firstName, lastName, phone, email, address } = personalData;
+  const waNumber = phone?.startsWith('+') ? phone.slice(1) : phone;
 
   return (
     <section id="about">
@@ -39,10 +40,8 @@ const AboutSection = () => {
             front end developer{' '}
             <span className="font-normal">based in Egypt</span>
           </p>
-          <Link
-            href="https://drive.google.com/file/d/1VOUbQJKR343CxeQg87A773tlt8QNM9xj/view?usp=drive_link"
-            target="_blank">
-            <IButton text="view my cv" />
+          <Link href="/omarcv.pdf" target="_blank">
+            <IButton text="my cv" />
           </Link>
         </AnimatedWrapper>
         <div className="flex flex-col gap-10 flex-3/5">
