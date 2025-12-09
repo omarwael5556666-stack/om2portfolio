@@ -14,18 +14,13 @@ export const socialLinks = [
 
 export const experiences = [
   {
-    date: '- jul 2025 - present',
-    company: '- Buguard',
-    title: 'Frontend Developer, Intern',
+    date: '2021 - 2024',
+    company: 'Misr University for Science and Technology, Giza, Egypt',
+    title: 'B.Sc. Computer Science',
   },
   {
-    date: '- jul 2024 - sep 2024',
-    company: '- ITI',
-    title: 'Frontend Developer, Intern',
-  },
-  {
-    date: '- 2022 - present',
-    company: '- freelance',
-    title: 'Frontend Developer',
+    date: '2025',
+    company: 'Root Academy',
+    title: 'Front-end Intern',
   },
 ]
