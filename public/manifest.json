@@ -1,11 +1,11 @@
 {
-  "name": "Kimo Mo | Developer Portfolio",
-  "short_name": "Kimo Portfolio",
+  "name": "Omar Dev Portfolio",
+  "short_name": "Omar Portfolio",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#141313",
-  "description": "Portfolio website of Kimo Mo: Web Developer, Designer, and Creator.",
+  "description": "Portfolio website of Omar Wael: Web Developer, Designer, and Creator.",
   "icons": [
     {
       "src": "/images/favicon.ico",
