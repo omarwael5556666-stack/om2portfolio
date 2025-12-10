@@ -40,7 +40,7 @@ const AboutSection = () => {
             front end developer{' '}
             <span className="font-normal">based in Egypt</span>
           </p>
-          <Link href="/omarcv.pdf" target="_blank">
+          <Link href="/omarlast22.pdf" target="_blank">
             <IButton text="my cv" />
           </Link>
         </AnimatedWrapper>
